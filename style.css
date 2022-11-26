@@ -1,0 +1,104 @@
+/*
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap');
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    
+}
+.card{
+    margin: 0 auto;
+    margin-top: 3vh;
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+
+}
+.card  > img{
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-position: center center;
+   max-height: 20rem;
+   border-radius: 1rem;
+   margin-top: 1.5rem;
+}
+.card > h2{
+    color: hsl(0, 0%, 100%);
+    margin-left: -8rem;
+}
+.card > p{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 1.5rem 0 1.5rem;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    
+}
+.price, .time-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+.price >p{
+    color: hsl(178, 100%, 50%);
+}
+.price > img{
+    max-height: 1.3rem;
+}
+.time-left>p{
+    color: hsl(215, 51%, 70%);
+}
+.time-left>img{
+    height: 1.3rem;
+}
+
+hr{
+    margin: 0;
+    align-self: stretch;
+    background-color: hsl(215, 51%, 70%);
+    height: 0.08rem;
+    border-style: none;
+    margin: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.attribution{
+    display: flex;
+    vertical-align: middle;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-left: -5rem;
+}
+.attribution > img{
+    max-width: 2.5rem;
+    max-height: 2.5rem;
+    border: .11rem solid hsl(0, 0%, 100%);
+    border-radius: 60%;
+}.attribution > p > sr{
+    color: hsl(0, 0%, 100%);
+}
+.attribution > p{
+    color: hsl(215, 51%, 70%);
+}
