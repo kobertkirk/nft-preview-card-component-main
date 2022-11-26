@@ -96,7 +96,7 @@ hr{
     max-height: 2.5rem;
     border: .11rem solid hsl(0, 0%, 100%);
     border-radius: 60%;
-}.attribution > p > sr{
+}.attribution > p > span{
     color: hsl(0, 0%, 100%);
 }
 .attribution > p{
